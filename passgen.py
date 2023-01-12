@@ -39,6 +39,14 @@ def genRanOfLength():
     pyperclip.copy(password)
     print(password)
 
+# Lowercase
+def lowerPass():
+    password =''
+    for i in range(args.length):
+        password += random.choice(string.ascii_lowercase)
+    pyperclip.copy(password)
+    print(password)
+
 # Main
 if args.type == 'M' or args.type == 'm':
     microsoftPass()
