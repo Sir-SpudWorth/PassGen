@@ -1,0 +1,11 @@
+Command line password generator.
+
+Options:
+
+[-t STR]|[--type STR]  
+(M) Microsoft Format - 1 Uppercase, 2 Lowercase, 5 Digits
+(R) Random - Creates random alphanumeric password inclusing symbols, default 8 characters.
+(L) Lowercase - Create lowercase password, default 8 characters
+
+[-l INT]|[--length INT]
+Choose the length of password to be generated
