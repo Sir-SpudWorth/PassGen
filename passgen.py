@@ -52,3 +52,5 @@ if args.type == 'M' or args.type == 'm':
     microsoftPass()
 elif args.type == 'R' or args.type == 'r':
     genRanOfLength()
+elif args.type == 'L' or args.type =='l':
+    lowerPass()
